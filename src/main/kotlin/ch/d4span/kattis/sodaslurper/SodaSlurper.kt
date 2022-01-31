@@ -13,7 +13,7 @@ fun main() {
 fun computeSodas(e: Int, found: Int, c: Int): Int {
     var empty: Int = e + found
 
-    var sodas: Int = 0
+    var sodas = 0
 
     while (canGetSoda(empty, c)) {
         sodas += empty / c

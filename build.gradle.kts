@@ -14,11 +14,16 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.3.31")
-
     testImplementation(kotlin("test-common"))
     testImplementation(kotlin("test-annotations-common"))
     testImplementation(kotlin("test-junit5"))
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.4.2")
+}
+
+tasks {
+    test {
+        useJUnitPlatform()
+    }
 }
 
 group = "org.d4span"
