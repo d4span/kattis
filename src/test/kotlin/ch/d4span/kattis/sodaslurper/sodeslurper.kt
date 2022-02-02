@@ -5,9 +5,8 @@ import kotlin.test.Ignore
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertTrue
 
-class SodaSlurperTest {
+class SodeSlurperTest {
 
     @Test
     @Ignore

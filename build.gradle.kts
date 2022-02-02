@@ -14,6 +14,8 @@ repositories {
 }
 
 dependencies {
+    implementation(kotlin("stdlib"))
+
     testImplementation(kotlin("test-common"))
     testImplementation(kotlin("test-annotations-common"))
     testImplementation(kotlin("test-junit5"))

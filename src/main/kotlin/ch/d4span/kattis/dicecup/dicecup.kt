@@ -1,3 +1,5 @@
+package ch.d4span.kattis.dicecup
+
 import java.util.*
 
 typealias NumberDiceRolls = Int
